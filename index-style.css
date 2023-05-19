@@ -1,0 +1,250 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("ST-SimpleSquare.otf") format("truetype");
+}
+body {
+  font-family: "MyFont", sans-serif;
+  background: radial-gradient( hsl(200,40%,20%), hsl(200,30%,6%) );
+  letter-spacing: 2.5px;
+}
+
+header {
+   background-image: url("i01_header-img (3).jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 500px;
+   display: flex;
+   align-content: center;
+
+
+   flex-direction: column;
+   border-radius: 20px 20px 0px 0px;
+   position: relative;
+
+ }
+
+ #menu {
+ 	display: flex;
+  margin-bottom: 90px;
+  margin-left: 120px;
+  margin-top: 50px;
+  background-color:
+
+ }
+ #menu a {
+	margin-right: 10px;
+	padding: 15px;
+	font: 15px Arial;
+	text-decoration: none;
+  font-family: "MyFont", sans-serif;
+	border: 1px solid #1437AD;
+
+  width: 300px;
+  height: 25px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: purple;
+  color: white;
+}
+#menu a:hover, #menu a.active {
+	color: blue;
+	border: 1px solid blue;
+	background-color: #F5F6FA;
+}
+
+#menu .menu-item {
+	background-color: white;
+	color: purple;
+}
+
+
+
+.main-title {
+  font-size: 5rem;
+  margin: 0;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.main-content {
+  font-size: 1.5rem;
+  color: white;
+  padding-left:150px;
+   padding-right: 150px;
+   text-align: center;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+
+.first-img {
+  margin-right: 10px;
+  margin: 10px;
+}
+
+.first-img img {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.first-content {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  text-align: center;
+  margin-left: 120px;
+}
+
+.first-content p {
+  margin-bottom: 10px;
+  color: white;
+  line-height: 1.5;
+  letter-spacing: 2.5px;
+
+}
+
+.first-content a {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2.5px;
+}
+
+.first-title{
+  font-size: 3em;
+  color: white;
+
+}
+.first-content a:hover {
+  color: blue;
+	border: 1px solid blue;
+	background-color: #F5F6FA;
+}
+.second{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+
+.second-img {
+  margin-right: 10px;
+  margin: 10px;
+}
+
+.second-img img {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.second-content {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  text-align: center;
+  margin-left: 120px;
+}
+
+.second-content p {
+  margin-bottom: 10px;
+  color: white;
+  line-height: 1.5;
+  letter-spacing: 2.5px;
+
+}
+
+.second-content a {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2.5px;
+}
+
+.second-title{
+  font-size: 3em;
+  color: white;
+
+}
+.second-content a:hover {
+  color: blue;
+	border: 1px solid blue;
+	background-color: #F5F6FA;
+}
+.third{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+
+.third-img {
+  margin-right: 10px;
+  margin: 10px;
+}
+
+.third-img img {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.third-content {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  text-align: center;
+  margin-left: 120px;
+}
+
+.third-content p {
+  margin-bottom: 10px;
+  color: white;
+  line-height: 1.5;
+  letter-spacing: 2.5px;
+
+}
+
+.third-content a {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2.5px;
+}
+
+.third-title{
+  font-size: 3em;
+  color: white;
+
+}
+.third-content a:hover {
+  color: blue;
+	border: 1px solid blue;
+	background-color: #F5F6FA;
+}

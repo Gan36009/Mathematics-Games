@@ -1,0 +1,226 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("ST-SimpleSquare.otf") format("truetype");
+}
+body {
+  font-family: "MyFont", sans-serif;
+  background: radial-gradient( hsl(200,40%,20%), hsl(200,30%,6%) );
+  letter-spacing: 2.5px;
+}
+
+header {
+   background-image: url("i01_header-img (3).jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 500px;
+   display: flex;
+   align-content: center;
+
+
+   flex-direction: column;
+   border-radius: 20px 20px 0px 0px;
+   position: relative;
+
+ }
+
+ #menu {
+ 	display: flex;
+  margin-bottom: 90px;
+  margin-left: 120px;
+  margin-top: 50px;
+  background-color:
+
+ }
+ #menu a {
+	margin-right: 10px;
+	padding: 15px;
+	font: 15px Arial;
+	text-decoration: none;
+  font-family: "MyFont", sans-serif;
+	border: 1px solid #1437AD;
+
+  width: 300px;
+  height: 25px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: purple;
+  color: white;
+}
+#menu a:hover, #menu a.active {
+	color: blue;
+	border: 1px solid blue;
+	background-color: #F5F6FA;
+}
+
+#menu .menu-item {
+	background-color: white;
+	color: purple;
+}
+
+
+
+.main-title {
+  font-size: 5rem;
+  margin: 0;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.main-content {
+  font-size: 1.5rem;
+  color: white;
+  padding-left:150px;
+   padding-right: 150px;
+   text-align: center;
+}
+.first {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  border: 5px solid white;
+
+}
+
+.first-img {
+  margin-right: 10px;
+  margin: 10px;
+}
+
+.first-img img {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.first-content {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  text-align: center;
+  margin-left: 120px;
+}
+
+.first-content p {
+  margin-bottom: 10px;
+  color: white;
+  line-height: 1.5;
+  letter-spacing: 2.5px;
+
+}
+
+.first-content a {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2.5px;
+}
+
+.first-title{
+  font-size: 3em;
+  color: white;
+
+}
+.first-content a:hover {
+  color: blue;
+	border: 1px solid blue;
+	background-color: #F5F6FA;
+}
+span{
+  font-size: 1.5em;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid white;
+  height: 1000px;
+  width: auto;
+  border-radius: 0px 0px 10px 10px;
+}
+
+#game-form {
+  margin-right: 10px;
+  display: none;
+  margin: 20px;
+
+}
+
+#enter-number {
+  padding: 10px;
+  font-size: 16px;
+  width: 500px;
+
+}
+
+#submit-number{
+  padding: 10px 20px;
+  font-size: 25px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  height: 50px;
+  width: 300px;
+
+}
+#start-game{
+  padding: 10px 20px;
+  font-size: 35px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 300px;
+  height: 100px;
+  border-radius: 20px;
+}
+.log-container {
+  width: 600px;
+  height: 600px;
+  background-color: black;
+  border-radius: 20px; ;
+  display: none;
+  font-family: "Times New Roman";
+  font-size: 10px 10px ;
+  justify-content: left;
+  align-items: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: auto;
+
+}
+
+#log-number {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+#submit-number:hover {
+  background-color: #4CAF50; /* зелений колір */
+  color: black;
+}
+#start-game:hover {
+  background-color: #4CAF50; /* зелений колір */
+  color: black;
+}
+.log-container {
+  text-align: left;
+}
+#score-game{
+  color: white;
+  font-family: "Times New Roman";
+  font-size: 25px;
+  align: center;
+}
