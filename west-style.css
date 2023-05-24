@@ -142,7 +142,7 @@ span{
   align-items: center;
   justify-content: center;
   border: 5px solid white;
-  height: 1000px;
+  height: 500px;
   width: auto;
   border-radius: 0px 0px 10px 10px;
 }
@@ -182,13 +182,13 @@ span{
   border-radius: 4px;
   margin-left: 10px;
   margin-top: 10px;
-  width: 400px;
+  width: 300px;
   height: 100px;
   border-radius: 20px;
 }
 .log-container {
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 150px;
   background-color: black;
   border-radius: 20px; ;
   display: none;
@@ -218,9 +218,19 @@ span{
 .log-container {
   text-align: left;
 }
-#newscore-game, #level-time{
+#new3score-game, #timer {
   color: white;
   font-family: "Times New Roman";
   font-size: 25px;
   align: center;
+}
+ #expression{
+   color: white;
+   font-family: "Times New Roman";
+   font-size: 25px;
+   align: center;
+   margin-left: 20px;
+ }
+li{
+  color: white;
 }

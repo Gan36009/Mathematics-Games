@@ -44,7 +44,7 @@ function shuffleArray(array) {
 
 startGameBtn.addEventListener("click", function () {
   resetGame();
- console.log(generatedNumber);
+
   gameForm.style.display = "flex";
   startGameBtn.style.display = "none";
   logContainer.style.display = "flex";

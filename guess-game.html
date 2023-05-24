@@ -11,10 +11,10 @@
 
   <header>
     <div id="menu">
-	<a href="#">Бики і Корови</a>
-	<a href="#" class="menu-item">Вгадай число</a>
-	<a href="#">Математик Заходу</a>
-	<a href="#" >Головна сторінка</a>
+	<a href="cows-game.html">Бики і Корови</a>
+	<a href="guess-game.html" class="menu-item">Вгадай число</a>
+	<a href="west-game.html">Математик Заходу</a>
+	<a href="index.html" >Головна сторінка</a>
 
 </div>
     <h1 class="main-title">Математичні ігри з ботом</h1>
@@ -31,7 +31,23 @@
 
   </div>
   </div>
+  <div class="container">
 
+
+
+
+      <form id="game-form">
+      <input type="number" id="enter-number" name="enter-number" required>
+      <input type="submit" id="submit-number" value="Перевірити число">
+    </form>
+    <button type="button" id="start-game">Розпочати гру</button>
+    <p id = "newscore-game"></p>
+   <p id="level-time"></p>
+
+
+<div class="log-container">
+    <ul id="log-number"> </ul></div>
+  </div>
 
 
 
